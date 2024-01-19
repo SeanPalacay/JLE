@@ -1,0 +1,106 @@
+.logo{
+  max-width: 30%;
+  height: auto; 
+  }
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+  }
+
+  
+  .container h1{
+    background: linear-gradient(to right, #006398, #73FEBD);
+    -webkit-background-clip: text; /* For modern browsers */
+    background-clip: text; /* Standard property */
+    color: transparent;
+    font-weight:bolder;
+    margin-left: 5px;
+  }
+  .pic{
+    margin-top: -8%;
+    max-width: 40%;
+    height: auto;
+  }
+  .inputs {
+    max-height: 40%; /* Set a suitable max-height */
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: -28px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    margin-top: 5%;
+    padding: 20px;
+  }
+
+  .inputs .welcome {
+    width: 80%;
+    height: 55px;
+    background: #006398;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    display: flex;
+    margin: auto;
+    color:white;
+}
+
+.inputs p{
+   color: grey;
+}
+
+
+.inputs .welcome h2 {
+  font-weight: bold;
+  font-size: 24px;
+  margin: 0;
+}
+  .inputwrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -4%;
+}
+
+.inputwrap ion-input {
+  background-color: #F2F1FA;
+  color: black;
+  width: 100%; /* Set the width to 100% */
+  border-radius: 12px;
+  text-align: left;
+  margin-top: 10px;
+}
+
+ion-buttons{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 200px;
+    border-radius: 50px;
+    background: #006398;
+    color: white;
+}
+
+.buttonwrap a{
+color: grey;
+}
+
+
+@media (max-width: 400px) {
+  .logo{
+    width: 15%;
+    height: 15%;
+  }
+  .container{
+    margin-top: 20px;
+  }
+  .inputs{
+    margin-top: -10px;
+
+    
+  }
+}

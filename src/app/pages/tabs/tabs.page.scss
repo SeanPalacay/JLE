@@ -1,0 +1,23 @@
+ion-tab-button.tab-selected {
+    --background: #006398; 
+  }
+
+  ion-tab-button ion-icon {
+    color: #006398;  
+  }
+  
+  ion-tab-button.tab-selected ion-icon {
+    color: hsl(0, 0%, 100%); 
+  }
+  
+  ion-tab-button.tab-selected span {
+    color: #ffffff; 
+  }
+
+  ion-tab-button:hover {
+    --background: #02527d;
+
+ion-icon {
+        color: hsl(0, 0%, 100%); /* White color for the icon */
+      }
+  }
