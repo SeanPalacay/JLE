@@ -28,8 +28,8 @@
 
 
 :root{
-  --primary-color:#006398;
-  --secondary-color: #00A558;
+  --primary-color:#CC4F5B;
+  --secondary-color: #F02B2D;
   --accent-color: #F2F1FA;
     --body-color: #f5f7f9;
     --toggle-color: #DDD;
@@ -44,15 +44,15 @@
 }
 ::-webkit-scrollbar-thumb{
   border-radius: 5px;
-  background-color: #0172AF;
+  background-color: #CC4F5B;
 }
 
 .primary-color-bg {
-  background-color: #006398;
+  background-color: #CC4F5B;
 }
 
 .secondary-color-bg {
-  background-color: #00A558;
+  background-color: #F02B2D;
 }
 
 .accent-color-bg {   
@@ -60,11 +60,11 @@
 }
 
 .primary-color-text {
-  color: #006398;
+  color: #CC4F5B;
 }
 
 .secondary-color-text {
- color: #00A558;
+ color: #F02B2D;
 }
 
 .accent-color-text {   
@@ -72,14 +72,14 @@
 }
 
 .primary-color-text-50{
-  color: rgba(0, 99, 152, 0.5); /* 0.5 represents 50% opacity */
+  color: rgb(204,79,91, 0.5); /* 0.5 represents 50% opacity */
 }
 
 .primary-color-border{
-  border-color:#006398;/* 0.5 represents 50% opacity */
+  border-color:#CC4F5B;/* 0.5 represents 50% opacity */
 }
 .primary-color-border-50{
-  border-color: rgba(0, 99, 152, 0.5); /* 0.5 represents 50% opacity */
+  border-color: rgba(204,79,91, 0.5); /* 0.5 represents 50% opacity */
 }
 
 .login-input-color-text{

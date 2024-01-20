@@ -70,21 +70,21 @@
   
   .toggle-label:first-child {
     left: 57px; /* Adjust the left position as needed */
-    color: #00A558;
+    color: #F02B2D;
   }
   
   .toggle-label:last-child {
     right: 57px; /* Adjust the right position as needed */
-    color: #7bcea7;
+    color: #CC4F5B;
   }
 
   /* Additional styles for the toggle input when checked */
 .toggle-input:checked + .toggle-slider .toggle-label.off {
-    color: #7bcea7;/* Change color when toggled to "On" */
+    color: #CC4F5B;/* Change color when toggled to "On" */
   }
   
   .toggle-input:checked + .toggle-slider .toggle-label.on {
-    color: #00A558; /* Change color when toggled to "Off" */
+    color: #F02B2D; /* Change color when toggled to "Off" */
   }
 
 
@@ -110,7 +110,7 @@
     left: 66px;
     font-family: "Poppins-SemiBold", Helvetica;
     font-weight: 600;
-    color: #006398;
+    color: #CC4F5B;
     font-size: 16px;
     letter-spacing: 0;
     line-height: normal;
@@ -122,7 +122,7 @@
     left: 299px;
     font-family: var(--UI-14-regular-font-family);
     font-weight: var(--UI-14-regular-font-weight);
-    color: #00a457bf;
+    color: #F02B2D;
     font-size: var(--UI-14-regular-font-size);
     text-align: right;
     letter-spacing: var(--UI-14-regular-letter-spacing);

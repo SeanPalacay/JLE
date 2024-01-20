@@ -2,7 +2,7 @@
 
 .topwrap .notif {
     background-color: white;
-    color: #006398;
+    color: #CC4F5B;
     border-radius: 50%;
     width: 40px;
     height: 40px;
@@ -25,7 +25,7 @@
     transform: translate(52%, -50%);
     border: 2px solid white;
     position: absolute;
-    background: #006398;
+    background: #CC4F5B;
     color: white;
     border-radius: 50px;
     height: 15px;
@@ -48,7 +48,7 @@
 }
 
 .topwrap .user h1 {
-    color: #006398;
+    color: #CC4F5B;
     font-weight: bolder;
 }
 
@@ -79,7 +79,7 @@
 }
 .filter .filterwrap{
     display: flex;
-    color:#006398;
+    color:#CC4F5B;
 }
 .filter .filterwrap .filterbtn{ 
     background-color: white;
@@ -102,7 +102,7 @@
 
 /* Note: These styles should be located in your global stylesheet */
 ion-action-sheet.my-custom-class {
-    --background: #006398;
+    --background: #CC4F5B;
     --backdrop-opacity: 0.6;
     --button-background-selected: white;
     --button-color: rgb(210, 208, 208);
@@ -116,7 +116,7 @@ ion-action-sheet.my-custom-class {
 @media screen and (max-width: 400px) {
     .topwrap .user h1 {
         font-size: 20px;
-        color: #006398;
+        color: #CC4F5B;
         font-weight: bolder;
     }
     

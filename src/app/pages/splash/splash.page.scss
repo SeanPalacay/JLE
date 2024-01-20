@@ -1,5 +1,5 @@
 ion-content {
-    --background: #00A558;
+    --background: #CC4F5B;
     --color: #fff;
   }
   
@@ -23,7 +23,7 @@ ion-content {
     position: fixed;
     width: 696px;
     height: 606px;
-    background-color: #f2f1fa;
+    background-color: #F55563;
     border-radius: 348px/303px;
     display: flex;
     align-items: center;
@@ -35,12 +35,11 @@ ion-content {
     max-height: 100%;
     width: auto;
     height: auto;
-    margin-top: 250px;
   }
   .loader{
-    height: 70px;
-    width: 70px;
-    margin-top: 50px;
+    height: 40px;
+    width: 40px;
+    margin-top: 150px;
   }
 
   @media (max-width: 380px) {

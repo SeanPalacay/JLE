@@ -1,106 +1,59 @@
-.logo{
-  max-width: 30%;
-  height: auto; 
-  }
-  .container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 40px;
-  }
 
-  
-  .container h1{
-    background: linear-gradient(to right, #006398, #73FEBD);
-    -webkit-background-clip: text; /* For modern browsers */
-    background-clip: text; /* Standard property */
-    color: transparent;
-    font-weight:bolder;
-    margin-left: 5px;
-  }
-  .pic{
-    margin-top: -8%;
-    max-width: 40%;
-    height: auto;
-  }
-  .inputs {
-    max-height: 40%; /* Set a suitable max-height */
-    width: 100%;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    margin-top: -28px;
-    background-color: #FFFFFF;
-    border-radius: 20px;
-    margin-top: 5%;
-    padding: 20px;
-  }
-
-  .inputs .welcome {
-    width: 80%;
-    height: 55px;
-    background: #006398;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50px;
-    display: flex;
-    margin: auto;
-    color:white;
+#remember {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
 }
 
-.inputs p{
-   color: grey;
+/* Create a custom checkbox */
+#remember + label {
+  position: relative;
+  padding-left: 35px;
+  cursor: pointer;
 }
 
-
-.inputs .welcome h2 {
-  font-weight: bold;
-  font-size: 24px;
-  margin: 0;
-}
-  .inputwrap {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: -4%;
+#remember + label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 24px;
+  height: 24px;
+  border: 2px solid #F2CFD0; /* Change the border color here */
+  border-radius: 4px;
 }
 
-.inputwrap ion-input {
-  background-color: #F2F1FA;
-  color: black;
-  width: 100%; /* Set the width to 100% */
-  border-radius: 12px;
-  text-align: left;
-  margin-top: 10px;
+/* On mouse-over, add a grey background color */
+#remember:hover + label:before {
+  border-color: #F2CFD0;
 }
 
-ion-buttons{
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-    width: 200px;
-    border-radius: 50px;
-    background: #006398;
-    color: white;
+/* When the checkbox is checked, add a red background */
+#remember:checked + label:before {
+  background-color: #F2CFD0;
 }
 
-.buttonwrap a{
-color: grey;
+/* Create the checkmark/indicator (hidden when not checked) */
+#remember + label:after {
+  content: "";
+  position: absolute;
+  display: none;
 }
 
+/* Show the checkmark when checked */
+#remember:checked + label:after {
+  display: block;
+}
 
-@media (max-width: 400px) {
-  .logo{
-    width: 15%;
-    height: 15%;
-  }
-  .container{
-    margin-top: 20px;
-  }
-  .inputs{
-    margin-top: -10px;
-
-    
-  }
+/* Style the checkmark/indicator */
+#remember + label:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
 }
