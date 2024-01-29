@@ -1,8 +1,8 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
-  appName: 'QuanbyFormify',
+  appId: 'io.ionic.starter.Formify',
+  appName: 'JL APP',
   webDir: 'www',
   server: {
     androidScheme: 'https'
